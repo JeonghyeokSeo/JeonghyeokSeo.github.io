@@ -1,1 +1,0 @@
-# JeonghyeokSeo.github.io
