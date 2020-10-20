@@ -1,0 +1,33 @@
+ h1 {
+	color : #000066;
+	font-family : "Lucida Console", Courier, monospace;
+	text-align: center;
+	padding: 20px;
+	background-color : #ccffff;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+li {
+  float: left;
+  
+}
+
+a {
+  text-decoration : none;
+  width : 100%;
+  margin : auto;
+  padding: 8px;
+  overflow : auto;
+  background-color: #D6E5FF;
+  font-family : "Lucida Console", Courier, monospace;
+}
+
+p {
+	white-space: normal;
+}
