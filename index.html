@@ -1,22 +1,43 @@
   
 <!DOCTYPE html>
 <html>
+<!--linked with externel css file -->
 <head>
   <link rel="stylesheet" href="style.css">
-  <title>Page Title</title>
+ 
+  <title>Jeonghyeok Seo : Home </title>
 </head>
 <body>
-
+<div class="wrapper">
+ <!--Heading--> 
 <h1>Jeonghyeok Seo</h1>
 
+<!--Navigation Bar-->
+<!--Adapted from http://www.w3schools.com/css/css_navbar.asp-->
 <nav>
+<ul>
   <li><a href="index.html">Home</a></li>
   <li><a href="WhoamI.html">Who Am I?</a></li>
+</ul>
 </nav>
 
-<p>Hi! I'm Jeonghyeok. I'm a GIS student in Fleming.</p>
+<main>
+	<h2>Hi! I'm Jeonghyeok.</h2>
+	<p> I'm a GIS student from Fleming College.</p>
+</main>
 
-<img src="images/Frostcampus.jpg" alt="Frostcampus">
 
+<picture>
+	<img src="Buda.jpg" alt="Me standing at Fisherman's Bastion in Budapest, Hungary" class="responsive">
+</picture>
+ 
+	<p class="caption">In Budapest, Hungary. Feb 2020</p>
+
+<map>
+<img src = "https://maps.googleapis.com/maps/api/staticmap?center=Budapest,Hungary&zoom=13&size=700x300&maptype=roadmap&markers=color:blue%7Clabel:A%7C47.502203,%2019.034782&key=AIzaSyDkNXlV6Rib05Pi-6McS2M8uChUQGBN9xo"
+alt="Budapest map" class = "responsive">
+</map>
+  
+</div>
 </body>
 </html>
