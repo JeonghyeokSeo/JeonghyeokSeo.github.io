@@ -1,5 +1,7 @@
 
 /* text styles */
+
+/* Heading */
  h1 {
 	color : #000066;
 	font-family : "Lucida Console", Courier, monospace;
@@ -8,26 +10,41 @@
 	padding: 20px;
 	background-color : none;
 }
-main {
+
+/* Sub Heading */
+h2 {
 	padding: 20px;
 	margin : 20px;
 	text-align : center;
 	font-family : "Lucida Console", Courier, monospace;
  }
  
+ /* main text */
  p {
-	 padding: 10px;
- }
-
-.caption {
-	padding: 10px;
-	margin : 10px;
+	 padding: 5px;
+	 margin : 5px;
 	text-align : center;
 	font-family : "Lucida Console", Courier, monospace;
-	font-size : 15px
+ }
+ 
+ /* caption */
+.caption {
+	padding: 0;
+	margin : 0;
+	text-align : center;
+	font-family : "Lucida Console", Courier, monospace;
+	font-size : 12px
+}
+
+/* footer */
+footer{
+	background-color: #ddffff;
+	padding: 10px;
+	margin-top: 20px;
 }
 
 /* nav bar */
+/*Adapted from http://www.w3schools.com/css/css_navbar.asp*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -60,21 +77,41 @@ li a:hover {
 	 background-color : #eeeeff;
 	 background-size: cover;
 	 line-height: 1.2;
+	 margin: 0;
 }
+/*Picture & Map*/
 /*Picture*/
 picture img {
 	display: block;
 	margin : 0 auto;
+	padding : 20px;
 }
- 
+/*responsive*/
  .responsive {
   max-width: 700px;
   width : 100%;
   height: auto;
 }
+/*Picture group setting*/
+.picture-group {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 0;
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 20px;
+}
 
-/*Map*/
+/*Individual pictures in picture group*/
+.picture-group img {
+	padding: 0;
+	margin: 0;
+}
+/*Google API map*/
 map img {
 display : block;
 margin : auto;
+padding : 20px;
+padding-bottom : 40px;
 }	

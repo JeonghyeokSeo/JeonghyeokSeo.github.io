@@ -2,42 +2,46 @@
 <!DOCTYPE html>
 <html>
 <!--linked with externel css file -->
-<head>
   <link rel="stylesheet" href="style.css">
- 
+ <!--Title-->
   <title>Jeonghyeok Seo : Home </title>
-</head>
-<body>
-<div class="wrapper">
+ <!--Responsive design-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
  <!--Heading--> 
 <h1>Jeonghyeok Seo</h1>
-
+</head>
 <!--Navigation Bar-->
 <!--Adapted from http://www.w3schools.com/css/css_navbar.asp-->
-<nav>
+<body>
 <ul>
   <li><a href="index.html">Home</a></li>
   <li><a href="WhoamI.html">Who Am I?</a></li>
 </ul>
-</nav>
 
+<!-- Main text -->
 <main>
 	<h2>Hi! I'm Jeonghyeok.</h2>
 	<p> I'm a GIS student from Fleming College.</p>
-</main>
 
 
+<!--Picture-->
 <picture>
 	<img src="Buda.jpg" alt="Me standing at Fisherman's Bastion in Budapest, Hungary" class="responsive">
 </picture>
  
-	<p class="caption">In Budapest, Hungary. Feb 2020</p>
+	<p class="caption">In Budapest, Hungary. Feb 2020.</p>
 
+<!--Google map api-->
 <map>
-<img src = "https://maps.googleapis.com/maps/api/staticmap?center=Budapest,Hungary&zoom=13&size=700x300&maptype=roadmap&markers=color:blue%7Clabel:A%7C47.502203,%2019.034782&key=AIzaSyDkNXlV6Rib05Pi-6McS2M8uChUQGBN9xo"
+<img src = "https://maps.googleapis.com/maps/api/staticmap?center=Budapest,Hungary&zoom=13&size=700x300&maptype=roadmap&markers=color:Red%7Clabel:A%7C47.502203,%2019.034782&key=AIzaSyDkNXlV6Rib05Pi-6McS2M8uChUQGBN9xo"
 alt="Budapest map" class = "responsive">
 </map>
-  
-</div>
+</main>
 </body>
+<!--footer-->
+<footer>
+<p>&copy; Jeonghyeok Seo 2020 </p>
+</footer>
 </html>
