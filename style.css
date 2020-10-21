@@ -8,7 +8,6 @@
 	text-align: center;
 	font-size : 35px;
 	padding: 20px;
-	background-color : none;
 }
 
 /* Sub Heading */
@@ -45,14 +44,16 @@ footer{
 
 /* nav bar */
 /*Adapted from http://www.w3schools.com/css/css_navbar.asp*/
-ul {
-  list-style-type: none;
+nav {
   margin: 0;
   padding: 0;
   overflow : hidden;
   background-color: #ddffff;
   position: sticky;
   top: 0;
+}
+ul {
+	list-style-type: none;
 }
 
 li {
